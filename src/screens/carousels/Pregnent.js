@@ -35,6 +35,7 @@ import tree from "../../icons/wired-lineal-1855-palmtree.json"
 import baby from "../../icons/wired-lineal-654-baby-boy.json"
 import mom from "../../icons/wired-lineal-1508-breastfeeding.json"
 import Button from "../../components/NavBar/button/Button";
+import LazyLoad from 'react-lazyload';
 const Pregnent=(props)=>{
   const playerRef1=useRef(null)
   useEffect(()=>{
@@ -181,7 +182,7 @@ const handleComplete = () => {
               {content1.map((item, index) => (
                 <div key={index}>
                   {item.type === 'image' && (
-                    <img src={item.src} className={styles.image1} alt={`מיכל אבדנ צילומי הריון מספר ${index + 1}`} />
+               <LazyLoad once> <img src={item.src} className={styles.image1} alt={`מיכל אבדנ צילומי הריון מספר ${index + 1}`} /></LazyLoad>  
                   )}
       
                 </div>

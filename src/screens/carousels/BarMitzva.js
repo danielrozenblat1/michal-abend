@@ -76,6 +76,7 @@ import mitzva75 from "../../images/מיכל אבנד צילומי בר מצוו�
 import mitzva76 from "../../images/מיכל אבנד צילומי בר מצווה 76.jpg"
 import mitzva77 from "../../images/מיכל אבנד צילומי בר מצווה 77.jpg"
 import mitzva78 from "../../images/מיכל אבנד צילומי בר מצווה 78.jpg"
+import LazyLoad from 'react-lazyload';
 import magenDavid from "../../icons/wired-lineal-1980-star-of-david.json"
 import styles from "./FamilyAndBarMitzva.module.css"
 import 'slick-carousel/slick/slick.css';
@@ -440,7 +441,7 @@ const BarMitzva=(props)=>{
           {content1.map((item, index) => (
             <div key={index}>
               {item.type === 'image' && (
-                <img src={item.src} className={styles.image1} alt={`מיכל אבנד צילומי בר/בת מצווה מספר ${index + 1}`} />
+              <LazyLoad once> <img src={item.src} className={styles.image1} alt={`מיכל אבנד צילומי בר/בת מצווה מספר ${index + 1}`} /></LazyLoad>
               )}
   
             </div>

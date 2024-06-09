@@ -2,6 +2,7 @@ import styles from "./FamilyAndBarMitzva.module.css"
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from "react-slick"
+import LazyLoad from 'react-lazyload';
 import family from "../../icons/wired-lineal-635-family.json"
 import family1 from "../../images/מיכל אבנד צילומי משפחה 1.jpg"
 import family2 from "../../images/מיכל אבנד צילומי משפחה 2.jpg"
@@ -303,7 +304,7 @@ return <>
           {content.map((item, index) => (
             <div key={index}>
               {item.type === 'image' && (
-                <img src={item.src} className={styles.image1} alt={`מיכל אבנד צילומי משפחה מספר ${index + 1}`} />
+             <LazyLoad once><img src={item.src} className={styles.image1} alt={`מיכל אבנד צילומי משפחה מספר ${index + 1}`} /></LazyLoad> 
               )}
   
             </div>

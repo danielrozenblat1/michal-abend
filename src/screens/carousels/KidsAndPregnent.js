@@ -2,6 +2,7 @@ import styles from "./KidsAndPregnent.module.css"
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from "react-slick"
+import LazyLoad from 'react-lazyload';
 import babies1 from "../../images/מיכל אבנד צילום ילדים 1.jpg"
 import babies2 from "../../images/מיכל אבנד צילום ילדים 2.jpg"
 import babies3 from "../../images/מיכל אבנד צילום ילדים 3.jpg"
@@ -295,7 +296,7 @@ return <>
           {content.map((item, index) => (
             <div key={index}>
               {item.type === 'image' && (
-<img src={item.src} className={styles.image1} alt={`מיכל אבנד צילומי תינוקות מספר ${index + 1}`} />
+  <LazyLoad once><img src={item.src} className={styles.image1} alt={`מיכל אבנד צילומי תינוקות מספר ${index + 1}`} /></LazyLoad>
               )}
   
             </div>
