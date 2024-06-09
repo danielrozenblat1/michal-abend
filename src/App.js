@@ -11,6 +11,7 @@ import Pregnent from './screens/carousels/Pregnent';
 
 function App() {
   return <>
+  <div class="background">
   <NavBar/>
   <FirstScreen/>
   <KidsAndPregnent title="צילומי תינוקות"/>
@@ -19,6 +20,7 @@ function App() {
   <BarMitzva title2="צילומי בר/בת מצווה"/>
   <SecondScreen/>
   <ForthScreen/>
+  </div>
   </>
 }
 
