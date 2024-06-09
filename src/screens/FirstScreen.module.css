@@ -1,0 +1,145 @@
+.title{
+    font-size:4rem;
+    font-family: "Camping";
+    text-align: center;
+    margin:2% auto;
+    direction:rtl;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.4);
+}
+.titleP{
+    font-size:4rem;
+    font-family: "Camping";
+    text-align: center;
+    margin:2% auto;
+    padding-top:80px;
+    direction:rtl;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.4);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:1% auto;
+    justify-content: space-evenly;
+}
+.description{
+    font-size:2.5rem;
+    font-family: "Camping";
+    text-align: center;
+    margin:1% auto;
+    direction: rtl;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.4);
+    width:40%;
+}
+.bold{
+    display: inline;
+
+}
+
+
+.center{
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 350px) {
+
+
+    .title{
+        font-size:1.8rem;
+        font-family: "Camping";
+        text-align: center;
+        margin:2% auto;
+        direction:rtl;
+        text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.4);
+    }
+    .titleP{
+        font-size:1.8rem;
+        font-family: "Camping";
+        text-align: center;
+        margin:2% auto;
+        padding-top:80px;
+        direction:rtl;
+        text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.4);
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:1% auto;
+        justify-content: space-evenly;
+    }
+    .description{
+        font-size:1.2rem;
+        font-family: "Camping";
+        text-align: center;
+        margin:1% auto;
+        direction: rtl;
+        text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.4);
+        width:90%;
+    }
+    .bold{
+        display: inline;
+    
+    }
+    
+    
+    .center{
+        display: flex;
+        margin:0 auto;
+        justify-content: center;
+    }
+
+}
+@media only screen and (min-width: 350px) and (max-width:450px) {
+
+
+    .title{
+        font-size:2.1rem;
+        font-family: "Camping";
+        text-align: center;
+        width:95%;
+        margin:2% auto;
+        direction:rtl;
+        text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.4);
+    }
+    .titleP{
+        font-size:2.1rem;
+        font-family: "Camping";
+        text-align: center;
+        width:95%;
+        margin:2% auto;
+        padding-top:80px;
+        direction:rtl;
+        text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.4);
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:1% auto;
+        justify-content: space-evenly;
+    }
+    .description{
+        font-size:1.4rem;
+        font-family: "Camping";
+        text-align: center;
+        margin:1% auto;
+        direction: rtl;
+        text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.4);
+        width:90%;
+    }
+    .bold{
+        display: inline;
+    
+    }
+    
+    
+    .center{
+        display: flex;
+        margin:0 auto;
+        justify-content: center;
+    }
+
+}
