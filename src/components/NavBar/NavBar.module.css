@@ -103,7 +103,7 @@ justify-content: center;
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  background-color: #ffffff;
+  background-color: #000000;
   transition: all 0.3s ease-in-out;
 }
 .image{
@@ -139,7 +139,7 @@ z-index: 999;
 }
 .navLink{
 
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   font-size: 1.25rem;
 
 font-family: "Assistant";

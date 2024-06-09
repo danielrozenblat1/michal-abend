@@ -44,7 +44,7 @@ const NavBar = () => {
       <nav className={scrolled ? styles.floatingNav :styles.navbar}>
         <div className={ width<850 ? styles.logoContainerC :styles.logoContainer}>
           <div className={styles.logo}>
-            {/* <img className={styles.image} src={logo} alt="מיכל אבנד לוגו"/> */}
+            <img className={styles.image} src={logo} alt="מיכל אבנד לוגו"/>
           </div>
         </div>
        {width<850 && <div className={styles.hamburger} onClick={toggleMenu}>
