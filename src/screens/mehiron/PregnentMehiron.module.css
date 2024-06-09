@@ -1,0 +1,385 @@
+.wrap {
+    width: 400px; /* רוחב */
+    height: 250px; /* גובה */
+    border-radius: 20px; /* רדיוס פינות */
+    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5), 0px 8px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin:4% auto;
+   
+    justify-content: center;
+    direction: rtl;
+    flex-direction: column; /* כדי שהאלמנטים בו יציגו בעמודה */
+    position: relative; /* כדי לאפשר לאלמנט הפנימי להיות מוצג באופן מוחלט בתוך wrap */
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:100%;
+direction: rtl;
+    
+  }
+  .icon {
+margin:0 auto ;
+
+width:60px;
+  }
+  
+  .header {
+    font-size: 2rem;
+    direction: rtl;
+    font-weight: bold;
+ 
+    margin:2% auto;
+    font-family: "Camping";
+  }
+  .title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin:2% auto;
+    direction: rtl;
+    font-family: "Camping";
+    text-align: center;
+  }
+  .description {
+font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: "AssistantR";
+    text-align: center;
+    width:100%;
+    direction: rtl;
+  }
+  
+  .plus {
+ font-size: 2.2rem;
+    font-family: "Camping";
+    text-align: center;
+    direction: rtl;
+  }
+  
+  .more {
+    font-size: 1.35rem;
+    font-family: "AssistantR";
+    text-align: center;
+    line-height: 1.4;
+    direction: rtl;
+    width:60%;
+    justify-content: center;
+    margin:1% auto;
+  }
+
+  @media only screen and (max-width: 350px) {
+
+
+    .wrap {
+        width: 300px; /* רוחב */
+        height: 200px; /* גובה */
+        border-radius: 20px; /* רדיוס פינות */
+        box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5), 0px 8px 20px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin:2% auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        direction: rtl;
+        flex-direction: column; /* כדי שהאלמנטים בו יציגו בעמודה */
+        position: relative; /* כדי לאפשר לאלמנט הפנימי להיות מוצג באופן מוחלט בתוך wrap */
+      }
+      .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:100%;
+    direction: rtl;
+        
+      }
+      .icon {
+    margin:0 auto ;
+    
+    width:60px;
+      }
+      
+      .header {
+        font-size: 1.7rem;
+        direction: rtl;
+        font-weight: bold;
+     
+        margin:2% auto;
+        font-family: "Camping";
+      }
+      .title{
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin:2% auto;
+        direction: rtl;
+        font-family: "Camping";
+        text-align: center;
+      }
+      .description {
+    font-size: 0.95rem;
+        margin-bottom: 10px;
+        font-family: "AssistantR";
+        text-align: center;
+        width:100%;
+        direction: rtl;
+      }
+      
+      .plus {
+     font-size: 1.6rem;
+        font-family: "Camping";
+        text-align: center;
+        direction: rtl;
+        margin:2% auto;
+      }
+      
+      .more {
+        font-size: 1rem;
+        font-family: "AssistantR";
+        text-align: center;
+        width:95%;
+        line-height: 1.4;
+        margin:2% auto;
+        direction: rtl;
+      }
+  }
+
+  @media only screen  and (min-width: 350px)  and (max-width: 450px) {
+
+
+    .wrap {
+        width: 340px; /* רוחב */
+        height: 220px; /* גובה */
+        border-radius: 20px; /* רדיוס פינות */
+        box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5), 0px 8px 20px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin:2% auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        direction: rtl;
+        flex-direction: column; /* כדי שהאלמנטים בו יציגו בעמודה */
+        position: relative; /* כדי לאפשר לאלמנט הפנימי להיות מוצג באופן מוחלט בתוך wrap */
+      }
+      .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:100%;
+    direction: rtl;
+        
+      }
+      .icon {
+    margin:0 auto ;
+    
+    width:60px;
+      }
+      
+      .header {
+        font-size: 1.8rem;
+        direction: rtl;
+        font-weight: bold;
+     
+        margin:2% auto;
+        font-family: "Camping";
+      }
+      .title{
+        font-size: 2.3rem;
+        font-weight: bold;
+        margin:3% auto;
+        direction: rtl;
+        font-family: "Camping";
+        text-align: center;
+      }
+      .description {
+    font-size: 1rem;
+        margin-bottom: 10px;
+        font-family: "AssistantR";
+        text-align: center;
+        width:100%;
+        direction: rtl;
+      }
+      
+      .plus {
+     font-size: 1.7rem;
+        font-family: "Camping";
+        text-align: center;
+        direction: rtl;
+        margin:2% auto;
+      }
+      
+      .more {
+        font-size: 1.1rem;
+        font-family: "AssistantR";
+        text-align: center;
+        width:95%;
+        line-height: 1.4;
+        margin:2% auto;
+        direction: rtl;
+      }
+
+  }
+  @media only screen  and (min-width: 450px)  and (max-width: 550px) {
+      .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:100%;
+    direction: rtl;
+      }
+      
+      .header {
+        font-size: 2rem;
+        direction: rtl;
+        font-weight: bold;
+     
+        margin:2% auto;
+        font-family: "Camping";
+      }
+      .title{
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin:3% auto;
+        direction: rtl;
+        font-family: "Camping";
+        text-align: center;
+      }
+      .description {
+    font-size: 1.1rem;
+        margin-bottom: 10px;
+        font-family: "AssistantR";
+        text-align: center;
+        width:100%;
+        direction: rtl;
+      }
+      
+      .plus {
+     font-size: 1.8rem;
+        font-family: "Camping";
+        text-align: center;
+        direction: rtl;
+        margin:2% auto;
+      }
+      .more {
+        font-size: 1.15rem;
+        font-family: "AssistantR";
+        text-align: center;
+        width:95%;
+        line-height: 1.4;
+        margin:2% auto;
+        direction: rtl;
+      }
+  }
+  @media only screen  and (min-width: 550px)  and (max-width: 750px) {
+    .row{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width:100%;
+  direction: rtl;
+    }
+    
+    .header {
+      font-size: 2.2rem;
+      direction: rtl;
+      font-weight: bold;
+   
+      margin:2% auto;
+      font-family: "Camping";
+    }
+    .title{
+      font-size: 2.8rem;
+      font-weight: bold;
+      margin:3% auto;
+      direction: rtl;
+      font-family: "Camping";
+      text-align: center;
+    }
+    .description {
+  font-size: 1.2rem;
+      margin-bottom: 10px;
+      font-family: "AssistantR";
+      text-align: center;
+      width:100%;
+      direction: rtl;
+    }
+    
+    .plus {
+   font-size:2rem;
+      font-family: "Camping";
+      text-align: center;
+      direction: rtl;
+      margin:2% auto;
+    }
+    .more {
+      font-size: 1.2rem;
+      font-family: "AssistantR";
+      text-align: center;
+      width:95%;
+      line-height: 1.4;
+      margin:2% auto;
+      direction: rtl;
+    }
+}
+@media only screen  and (min-width: 750px)  and (max-width: 850px) {
+    .row{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width:100%;
+  direction: rtl;
+    }
+    
+    .wrap {
+        width: 350px; /* רוחב */
+        height: 220px; /* גובה */
+        border-radius: 20px; /* רדיוס פינות */
+        box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.5), 0px 8px 20px rgba(0, 0, 0, 0.2);
+        display: flex;
+        margin:2% auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        direction: rtl;
+        flex-direction: column; /* כדי שהאלמנטים בו יציגו בעמודה */
+        position: relative; /* כדי לאפשר לאלמנט הפנימי להיות מוצג באופן מוחלט בתוך wrap */
+      }
+    .header {
+      font-size: 1.8rem;
+      direction: rtl;
+      font-weight: bold;
+   
+      margin:2% auto;
+      font-family: "Camping";
+    }
+    .title{
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin:3% auto;
+      direction: rtl;
+      font-family: "Camping";
+      text-align: center;
+    }
+    .description {
+  font-size: 1.05rem;
+      margin-bottom: 10px;
+      font-family: "AssistantR";
+      text-align: center;
+      width:100%;
+      direction: rtl;
+    }
+    
+    .plus {
+   font-size:2rem;
+      font-family: "Camping";
+      text-align: center;
+      direction: rtl;
+      margin:2% auto;
+    }
+    .more {
+      font-size: 1.2rem;
+      font-family: "AssistantR";
+      text-align: center;
+      width:95%;
+      line-height: 1.4;
+      margin:2% auto;
+      direction: rtl;
+    }
+}

@@ -286,7 +286,7 @@ src: babies27,
 
 
 return <>
-<div className={styles.title}>{props.title}</div>
+<div className={styles.title} id="עבודות">{props.title}</div>
 <div className={styles.description}>מוזמנים להחליק ולהתרשם</div>
 
 

@@ -4,7 +4,7 @@ const SecondScreen=()=>{
 
 
     return <>
-    <div className={styles.title}>אז מי עומדת מאחורי העדשה?</div>
+    <div className={styles.title} id="קצת עלי">אז מי עומדת מאחורי העדשה?</div>
     <div className={styles.wrap}>
 <div className={styles.center}><img className={styles.image} src={michal}/></div>
 <div className={styles.column}>

@@ -8,6 +8,7 @@ import SecondScreen from './screens/SecondScreen';
 import ForthScreen from './screens/ForthScreen';
 import BarMitzva from './screens/carousels/BarMitzva';
 import Pregnent from './screens/carousels/Pregnent';
+import PregnentMehiron from './screens/mehiron/PregnentMehiron';
 
 function App() {
   return <>
@@ -20,6 +21,7 @@ function App() {
   <BarMitzva title2="צילומי בר/בת מצווה"/>
   <SecondScreen/>
   <ForthScreen/>
+  <PregnentMehiron/>
   </div>
   </>
 }
