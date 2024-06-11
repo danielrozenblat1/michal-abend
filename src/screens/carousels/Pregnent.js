@@ -54,46 +54,21 @@ const handleComplete = () => {
         infinite: true,
         speed: 500,
         autoplay: true, // Enable autoplay
-        autoplaySpeed: 2500,
+        autoplaySpeed: 3000,
         slidesToShow: window.innerWidth < 550 ? 1 : window.innerWidth < 750 ? 2 : 3,
         slidesToScroll:1,
   
       };
       
     const content1 = [
-        {
-          type: 'image',
-          src: pregnent1,
-        },
-        {
-            type: 'image',
-            src: pregnent2,
-          },
-          {
-            type: 'image',
-            src: pregnent3,
-          },
-          {
-            type: 'image',
-            src: pregnent4,
-          },
-          {
-            type: 'image',
-            src: pregnent5,
-          },
-
-        {
-          type: 'image',
-          src: pregnent6,
-        },
+      
+       
+   
         {
           type: 'image',
           src: pregnent7,
         },
-        {
-          type: 'image',
-          src: pregnent8,
-        },
+    
         {
           type: 'image',
           src: pregnent9,
@@ -118,47 +93,14 @@ const handleComplete = () => {
               type: 'image',
               src: pregnent14,
             },
-          {
-            type: 'image',
-            src: pregnent15,
-          },
-          {
-            type: 'image',
-            src: pregnent16,
-          },
-      
-          {
-            type: 'image',
-            src: pregnent17,
-          },
-          {
-            type: 'image',
-            src: pregnent18,
-          },
-          {
-            type: 'image',
-            src: pregnent19,
-          },
+         
+         
           {
               type: 'image',
               src: pregnent20,
             },
-          {
-            type: 'image',
-            src: pregnent21,
-          },
-          {
-            type: 'image',
-            src: pregnent22,
-          },
-          {
-              type: 'image',
-              src: pregnent23,
-            },
-            {
-                type: 'image',
-                src: pregnent24,
-              },
+        
+          
             {
               type: 'image',
               src: pregnent25,

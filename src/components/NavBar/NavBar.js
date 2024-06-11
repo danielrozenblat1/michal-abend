@@ -71,7 +71,7 @@ const NavBar = () => {
             <li><ScrollLink  onClick={closeMenu} to="עבודות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>עבודות</div></ScrollLink></li>
             <li><ScrollLink   onClick={closeMenu} to="קצת עלי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>קצת עלי</div></ScrollLink></li>
             <div className={styles.logo}>
-            <img className={styles.navImage} src={logo} alt="מיכל אבנד לוגו"/>
+            {/* <img className={styles.navImage} src={logo} alt="מיכל אבנד לוגו"/> */}
           </div>
           </ul>
         </div>

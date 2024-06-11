@@ -76,59 +76,23 @@ const handleComplete = () => {
         infinite: true,
         speed: 500,
         autoplay: true, // Enable autoplay
-        autoplaySpeed: 2500,
+        autoplaySpeed: 3000,
         slidesToShow: window.innerWidth < 550 ? 1 : window.innerWidth < 750 ? 2 : 3,
         slidesToScroll:1,
   
       };
 
     const content = [
-        {
-          type: 'image',
-          src: family1,
-        },
-        {
-            type: 'image',
-            src: family2,
-          },
-          {
-            type: 'image',
-            src: family3,
-          },
-          {
-            type: 'image',
-            src: family4,
-          },
-          {
-            type: 'image',
-            src: family5,
-          },
-
-        {
-          type: 'image',
-          src: family6,
-        },
+      
         {
           type: 'image',
           src: family7,
-        },
-        
-        {
-          type: 'image',
-          src: family9,
-        },
-        {
-            type: 'image',
-            src: family10,
-          },
+        },                    
         {
           type: 'image',
           src: family11,
         },
-        {
-          type: 'image',
-          src: family12,
-        },
+      
         {
             type: 'image',
             src: family13,
@@ -146,19 +110,7 @@ const handleComplete = () => {
                 type: 'image',
                 src: family18,
               },
-              {
-                type: 'image',
-                src: family19,
-              },
-    
-            {
-              type: 'image',
-              src: family20,
-            },
-            {
-              type: 'image',
-              src: family21,
-            },
+                         
             {
               type: 'image',
               src: family22,
@@ -184,36 +136,18 @@ const handleComplete = () => {
                   type: 'image',
                   src: family28,
                 },
-                {
-                  type: 'image',
-                  src: family29,
-                },
-                {
-                    type: 'image',
-                    src: family30,
-                  },
-                  {
-                    type: 'image',
-                    src: family31,
-                  },
+              
+                 
                   {
                     type: 'image',
                     src: family32,
                   },
-                  {
-                    type: 'image',
-                    src: family33,
-                  },
-        
-           
+                          
                 {
                   type: 'image',
                   src: family35,
                 },
-                {
-                  type: 'image',
-                  src: family36,
-                },
+              
              
                 {
                     type: 'image',
@@ -223,26 +157,13 @@ const handleComplete = () => {
                   type: 'image',
                   src: family39,
                 },
-                {
-                  type: 'image',
-                  src: family40,
-                },
-                {
-                    type: 'image',
-                    src: family41,
-                  },
+               
+               
                   {
                       type: 'image',
                       src: family42,
                     },
-                    {
-                      type: 'image',
-                      src: family43,
-                    },
-                    {
-                        type: 'image',
-                        src: family44,
-                      },
+                 
                       {
                         type: 'image',
                         src: family45,

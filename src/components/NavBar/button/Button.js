@@ -17,7 +17,7 @@ const handleComplete = () => {
 return <>
 
 <div className={styles.wrap}>
-<div className={styles.icon}><Player icon={props.icon} size="100%" onComplete={handleComplete} ref={playerRef1}/></div>
+{/* <div className={styles.icon}><Player icon={props.icon} size="100%" onComplete={handleComplete} ref={playerRef1}/></div> */}
 <div className={styles.text}>{props.text}</div>
 </div>
 </>

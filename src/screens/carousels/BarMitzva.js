@@ -104,7 +104,7 @@ const BarMitzva=(props)=>{
           infinite: true,
           speed: 500,
           autoplay: true, // Enable autoplay
-          autoplaySpeed: 2500,
+          autoplaySpeed: 3000,
           slidesToShow: window.innerWidth < 550 ? 1 : window.innerWidth < 750 ? 2 : 3,
           slidesToScroll:1,
     
@@ -139,26 +139,14 @@ const BarMitzva=(props)=>{
               type: 'image',
               src: mitzva7,
             },
-            {
-              type: 'image',
-              src: mitzva8,
-            },
-            {
-              type: 'image',
-              src: mitzva9,
-            },
+            
+         
             {
                 type: 'image',
                 src: mitzva10,
               },
-            {
-              type: 'image',
-              src: mitzva11,
-            },
-            {
-              type: 'image',
-              src: mitzva12,
-            },
+          
+         
             {
                 type: 'image',
                 src: mitzva13,
@@ -167,14 +155,7 @@ const BarMitzva=(props)=>{
                   type: 'image',
                   src: mitzva14,
                 },
-              {
-                type: 'image',
-                src: mitzva15,
-              },
-              {
-                type: 'image',
-                src: mitzva16,
-              },
+             
           
               {
                 type: 'image',
@@ -184,14 +165,7 @@ const BarMitzva=(props)=>{
                 type: 'image',
                 src: mitzva18,
               },
-              {
-                type: 'image',
-                src: mitzva19,
-              },
-              {
-                  type: 'image',
-                  src: mitzva20,
-                },
+             
               {
                 type: 'image',
                 src: mitzva21,
@@ -204,96 +178,24 @@ const BarMitzva=(props)=>{
                   type: 'image',
                   src: mitzva23,
                 },
-                {
-                    type: 'image',
-                    src: mitzva24,
-                  },
-                {
-                  type: 'image',
-                  src: mitzva25,
-                },
-                {
-                  type: 'image',
-                  src: mitzva26,
-                },
-                {
-                  type: 'image',
-                  src: mitzva27,
-                },
-                {
-                  type: 'image',
-                  src: mitzva28,
-                },
-                {
-                    type: 'image',
-                    src: mitzva29,
-                  },
+               
+           
+             
                   {
                     type: 'image',
                     src: mitzva30,
                   },
-                  {
-                    type: 'image',
-                    src: mitzva31,
-                  },
-                  {
-                    type: 'image',
-                    src: mitzva32,
-                  },
-        
-                {
-                  type: 'image',
-                  src: mitzva33,
-                },
-                {
-                  type: 'image',
-                  src: mitzva34,
-                },
-                {
-                  type: 'image',
-                  src: mitzva35,
-                },
-                {
-                  type: 'image',
-                  src: mitzva36,
-                },
-                {
-                    type: 'image',
-                    src: mitzva37,
-                  },
-                {
-                  type: 'image',
-                  src: mitzva38,
-                },
-                {
-                  type: 'image',
-                  src: mitzva39,
-                },
-                {
-                    type: 'image',
-                    src: mitzva40,
-                  },
-                  {
-                      type: 'image',
-                      src: mitzva41,
-                    },
-                  {
-                    type: 'image',
-                    src: mitzva42,
-                  },
-                  {
-                    type: 'image',
-                    src: mitzva43,
-                  },
               
-                  {
-                    type: 'image',
-                    src: mitzva44,
-                  },
-                  {
-                    type: 'image',
-                    src: mitzva45,
-                  },
+              
+        
+             
+            
+            
+             
+              
+            
+              
+                
                   {
                     type: 'image',
                     src: mitzva46,
@@ -310,22 +212,10 @@ const BarMitzva=(props)=>{
                     type: 'image',
                     src: mitzva49,
                   },
-                  {
-                      type: 'image',
-                      src: mitzva50,
-                    },
-                    {
-                        type: 'image',
-                        src: mitzva51,
-                      },
-                    {
-                      type: 'image',
-                      src: mitzva52,
-                    },
-                    {
-                      type: 'image',
-                      src: mitzva53,
-                    },
+                
+                 
+                  
+                 
                     {
                       type: 'image',
                       src: mitzva54,
@@ -334,39 +224,24 @@ const BarMitzva=(props)=>{
                       type: 'image',
                       src: mitzva55,
                     },
-                    {
-                        type: 'image',
-                        src: mitzva56,
-                      },
+                
                       {
                         type: 'image',
                         src: mitzva57,
                       },
-                      {
-                        type: 'image',
-                        src: mitzva58,
-                      },
+                   
                       {
                         type: 'image',
                         src: mitzva59,
                       },
             
-                    {
-                      type: 'image',
-                      src: mitzva60,
-                    },
+                  
                     {
                       type: 'image',
                       src: mitzva61,
                     },
-                    {
-                      type: 'image',
-                      src: mitzva62,
-                    },
-                    {
-                      type: 'image',
-                      src: mitzva63,
-                    },
+                 
+                   
                     {
                         type: 'image',
                         src: mitzva64,
@@ -375,51 +250,23 @@ const BarMitzva=(props)=>{
                       type: 'image',
                       src: mitzva65,
                     },
-                    {
-                      type: 'image',
-                      src: mitzva66,
-                    },
-                    {
-                        type: 'image',
-                        src: mitzva67,
-                      },
-                      {
-                          type: 'image',
-                          src: mitzva68,
-                        },
+                  
+              
+                  
                       {
                         type: 'image',
                         src: mitzva69,
                       },
-                      {
-                        type: 'image',
-                        src: mitzva70,
-                      },
+                     
                   
-                      {
-                        type: 'image',
-                        src: mitzva71,
-                      },
-                      {
-                        type: 'image',
-                        src: mitzva72,
-                      },
+                    
+                
                       {
                         type: 'image',
                         src: mitzva73,
                       },
-                      {
-                          type: 'image',
-                          src: mitzva74,
-                        },
-                      {
-                        type: 'image',
-                        src: mitzva75,
-                      },
-                      {
-                        type: 'image',
-                        src: mitzva76,
-                      },
+                 
+                 
                       {
                           type: 'image',
                           src: mitzva77,

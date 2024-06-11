@@ -76,38 +76,15 @@ const handleComplete = () => {
         infinite: true,
         speed: 500,
         autoplay: true, // Enable autoplay
-        autoplaySpeed: 2500,
+        autoplaySpeed: 3000,
         slidesToShow: window.innerWidth < 550 ? 1 : window.innerWidth < 750 ? 2 : 3,
         slidesToScroll:1,
   
       };
 
     const content = [
-        {
-          type: 'image',
-          src: babies1,
-        },
-        {
-            type: 'image',
-            src: babies2,
-          },
-          {
-            type: 'image',
-            src: babies3,
-          },
-          {
-            type: 'image',
-            src: babies4,
-          },
-          {
-            type: 'image',
-            src: babies5,
-          },
 
-        {
-          type: 'image',
-          src: babies6,
-        },
+    
         {
           type: 'image',
           src: babies7,
@@ -124,22 +101,9 @@ const handleComplete = () => {
             type: 'image',
             src: babies10,
           },
-        {
-          type: 'image',
-          src: babies11,
-        },
-        {
-          type: 'image',
-          src: babies12,
-        },
-        {
-            type: 'image',
-            src: babies13,
-          },
-          {
-              type: 'image',
-              src: babies14,
-            },
+   
+      
+    
             {
               type: 'image',
               src: babies15,
@@ -156,43 +120,23 @@ src: babies17,
 type: 'image',
 src: babies18,
               },
-              {
-type: 'image',
-src: babies19,
-              },
+
     
             {
               type: 'image',
               src: babies20,
             },
-            {
-              type: 'image',
-              src: babies21,
-            },
+      
             {
               type: 'image',
               src: babies22,
             },
-            {
-              type: 'image',
-              src: babies23,
-            },
-            {
-type: 'image',
-src: babies24,
-              },
-            {
-              type: 'image',
-              src: babies25,
-            },
+           
             {
               type: 'image',
               src: babies26,
             },
-            {
-type: 'image',
-src: babies27,
-              },
+  
               {
   type: 'image',
   src: babies28,
@@ -209,39 +153,15 @@ src: babies27,
     type: 'image',
     src: babies31,
   },
-  {
-    type: 'image',
-    src: babies32,
-  },
-  {
-    type: 'image',
-    src: babies33,
-  },
+
+
         
-{
-  type: 'image',
-  src: babies34,
-},
-{
-  type: 'image',
-  src: babies35,
-},
-{
-  type: 'image',
-  src: babies36,
-},
-{
-  type: 'image',
-  src: babies37,
-},
-{
-    type: 'image',
-    src: babies38,
-  },
-{
-  type: 'image',
-  src: babies39,
-},
+
+
+
+
+
+
 {
   type: 'image',
   src: babies40,
@@ -270,10 +190,7 @@ src: babies27,
  type: 'image',
  src: babies46,
         },
-        {
- type: 'image',
- src: babies47,
-        },
+  
         {
    type: 'image',
    src: babies48,

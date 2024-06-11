@@ -59,7 +59,7 @@ justify-content: center;
   width:100vw;
   height: 100vh;
   /* background: linear-gradient(35deg, rgba(255,197,0,1) 0%, rgba(0,0,0,1) 20%, rgba(4,4,4,1) 80%, rgba(255,189,0,1) 100%); */
-  background: linear-gradient(150deg, rgba(255,232,191,1) 5%, rgba(202,144,61,1) 20%, rgba(255,232,191,1) 35%, rgba(202,144,61,1) 50%, rgba(255,232,191,1) 65%, rgba(202,144,61,1) 80%, rgba(255,232,191,1) 95%);
+  background: linear-gradient(150deg, rgba(255,232,191,1) 5%, rgba(138,93,28,1) 20%, rgba(255,232,191,1) 35%, rgba(138,93,28,1) 50%, rgba(255,232,191,1) 65%, rgba(138,93,28,1) 80%, rgba(255,232,191,1) 95%);
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
   display: flex;
