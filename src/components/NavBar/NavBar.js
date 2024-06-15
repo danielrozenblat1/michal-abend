@@ -54,8 +54,8 @@ const NavBar = () => {
         </div>}
       
          {width>=850 && <div className={styles.row}>
-          <ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>צרי קשר</div></ScrollLink>
-          <ScrollLink to="מחירון" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>מחירון</div></ScrollLink>
+          <ScrollLink to="לקוחות ממליצים" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>לקוחות ממליצים</div></ScrollLink>
+          <ScrollLink to="מחירון" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>החבילות שלי</div></ScrollLink>
           <ScrollLink to="עבודות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>עבודות</div></ScrollLink>
           <ScrollLink to="קצת עלי" smooth={true} duration={1000} offset={-200}><div className={styles.navLink}>קצת עלי</div></ScrollLink>
             </div>}
@@ -66,8 +66,8 @@ const NavBar = () => {
           </div>
           <ul>
     
-            <li><ScrollLink  onClick={closeMenu} to="צור קשר" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>צרי קשר</div></ScrollLink></li>
-            <li><ScrollLink  onClick={closeMenu} to="מחירון" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>מחירון</div></ScrollLink></li>
+            <li><ScrollLink  onClick={closeMenu} to="לקוחות ממליצים" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>לקוחות ממליצים</div></ScrollLink></li>
+            <li><ScrollLink  onClick={closeMenu} to="מחירון" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>החבילות שלי</div></ScrollLink></li>
             <li><ScrollLink  onClick={closeMenu} to="עבודות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>עבודות</div></ScrollLink></li>
             <li><ScrollLink   onClick={closeMenu} to="קצת עלי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>קצת עלי</div></ScrollLink></li>
             <div className={styles.logo}>

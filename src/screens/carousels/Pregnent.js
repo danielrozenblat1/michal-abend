@@ -2,9 +2,9 @@ import styles from "./KidsAndPregnent.module.css"
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from "react-slick"
-import pregnent1 from "../../images/מיכל אבנד צילום הריון 1.jpg"
-import pregnent2 from "../../images/מיכל אבנד צילום הריון 2.jpg"
-import pregnent3 from "../../images/מיכל אבנד צילום הריון 3.jpg"
+import pregnent1 from "../../images/מיכל אבנד הריון 1.png"
+import pregnent2 from "../../images/מיכל אבנד הריון 2.png"
+import pregnent3 from "../../images/מיכל אבנד הריון.png"
 import pregnent4 from"../../images/מיכל אבנד צילום הריון 4.jpg"
 import pregnent5 from "../../images/מיכל אבנד צילום הריון 5.jpg"
 import pregnent6 from "../../images/מיכל אבנד צילום הריון 6.jpg"
@@ -62,37 +62,24 @@ const handleComplete = () => {
       
     const content1 = [
       
-       
-   
-        {
-          type: 'image',
-          src: pregnent7,
-        },
-    
-        {
-          type: 'image',
-          src: pregnent9,
-        },
-        {
-            type: 'image',
-            src: pregnent10,
-          },
-        {
-          type: 'image',
-          src: pregnent11,
-        },
-        {
-          type: 'image',
-          src: pregnent12,
-        },
+      
+     
         {
             type: 'image',
             src: pregnent13,
           },
           {
-              type: 'image',
-              src: pregnent14,
-            },
+            type: 'image',
+            src: pregnent1,
+          },
+          {
+            type: 'image',
+            src: pregnent2,
+          },
+          {
+            type: 'image',
+            src: pregnent3,
+          },
          
          
           {
@@ -101,18 +88,9 @@ const handleComplete = () => {
             },
         
           
-            {
-              type: 'image',
-              src: pregnent25,
-            },
-            {
-              type: 'image',
-              src: pregnent26,
-            },
-            {
-              type: 'image',
-              src: pregnent27,
-            },
+        
+         
+         
     ];
     return <>
 
@@ -132,7 +110,7 @@ const handleComplete = () => {
             </Slider>
           </div>
      
-          <Button text="בואי נדבר לגבי צילומי הריון" icon={mom}/>
+          <Button text="בואי נדבר לגבי צילומי הריון" icon={mom} message="היי מיכל , אשמח לשמוע עוד על צילומי הריון"/>
     </>
     }
     export default Pregnent

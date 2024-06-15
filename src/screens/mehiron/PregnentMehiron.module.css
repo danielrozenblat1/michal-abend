@@ -43,11 +43,13 @@ width:60px;
     text-align: center;
   }
   .description {
-font-size: 1.1rem;
+font-size: 1.4rem;
     margin-bottom: 10px;
     font-family: "AssistantR";
     text-align: center;
-    width:100%;
+    width:50%;
+ 
+    margin:3% auto;
     direction: rtl;
   }
   
@@ -68,6 +70,18 @@ font-size: 1.1rem;
     justify-content: center;
     margin:1% auto;
   }
+  .center{
+    display: flex;
+    width:40%;
+    justify-content: center;
+    margin:0 auto;
+  }
+  .image{
+    object-fit: contain;
+    width: 100%;
+    cursor: pointer;
+  }
+  
 
   @media only screen and (max-width: 350px) {
 
@@ -117,12 +131,24 @@ font-size: 1.1rem;
       }
       .description {
     font-size: 0.95rem;
-        margin-bottom: 10px;
+    margin:4% auto;
         font-family: "AssistantR";
         text-align: center;
-        width:100%;
+        width:75%;
         direction: rtl;
       }
+      .center{
+        display: flex;
+        width:90%;
+        justify-content: center;
+        margin:0 auto;
+      }
+      .image{
+        object-fit: contain;
+        width: 100%;
+        cursor: pointer;
+      }
+      
       
       .plus {
      font-size: 1.6rem;
@@ -190,14 +216,24 @@ font-size: 1.1rem;
         text-align: center;
       }
       .description {
-    font-size: 1rem;
-        margin-bottom: 10px;
-        font-family: "AssistantR";
-        text-align: center;
-        width:100%;
-        direction: rtl;
-      }
-      
+        font-size: 1rem;
+        margin:3% auto;
+            font-family: "AssistantR";
+            text-align: center;
+            width:75%;
+            direction: rtl;
+          }
+          .center{
+            display: flex;
+            width:90%;
+            justify-content: center;
+            margin:0 auto;
+          }
+          .image{
+            object-fit: contain;
+            width: 100%;
+            cursor: pointer;
+          }
       .plus {
      font-size: 1.7rem;
         font-family: "Camping";
@@ -243,13 +279,24 @@ font-size: 1.1rem;
         text-align: center;
       }
       .description {
-    font-size: 1.1rem;
-        margin-bottom: 10px;
-        font-family: "AssistantR";
-        text-align: center;
-        width:100%;
-        direction: rtl;
-      }
+        font-size: 1.1rem;
+        margin:3% auto;
+            font-family: "AssistantR";
+            text-align: center;
+            width:80%;
+            direction: rtl;
+          }
+          .center{
+            display: flex;
+            width:80%;
+            justify-content: center;
+            margin:0 auto;
+          }
+          .image{
+            object-fit: contain;
+            width: 100%;
+            cursor: pointer;
+          }
       
       .plus {
      font-size: 1.8rem;
@@ -294,13 +341,25 @@ font-size: 1.1rem;
       text-align: center;
     }
     .description {
-  font-size: 1.2rem;
-      margin-bottom: 10px;
-      font-family: "AssistantR";
-      text-align: center;
-      width:100%;
-      direction: rtl;
-    }
+      font-size: 1.2rem;
+      margin:3% auto;
+          font-family: "AssistantR";
+          text-align: center;
+          width:80%;
+          direction: rtl;
+        }
+        .center{
+          display: flex;
+          width:70%;
+          justify-content: center;
+          margin:0 auto;
+        }
+        .image{
+          object-fit: contain;
+          width: 100%;
+          cursor: pointer;
+        }
+    
     
     .plus {
    font-size:2rem;
@@ -358,14 +417,24 @@ font-size: 1.1rem;
       text-align: center;
     }
     .description {
-  font-size: 1.05rem;
-      margin-bottom: 10px;
-      font-family: "AssistantR";
-      text-align: center;
-      width:100%;
-      direction: rtl;
-    }
-    
+      font-size: 1.25rem;
+      margin:3% auto;
+          font-family: "AssistantR";
+          text-align: center;
+          width:80%;
+          direction: rtl;
+        }
+        .center{
+          display: flex;
+          width:50%;
+          justify-content: center;
+          margin:0 auto;
+        }
+        .image{
+          object-fit: contain;
+          width: 100%;
+          cursor: pointer;
+        }
     .plus {
    font-size:2rem;
       font-family: "Camping";

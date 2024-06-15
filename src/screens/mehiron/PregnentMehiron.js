@@ -6,12 +6,27 @@ import { useEffect, useRef } from "react"
 import { Player } from "@lordicon/react"
 import ScrollReveal from "scrollreveal"
 import Button from "../../components/NavBar/button/Button"
+import packages from "../../images/מיכל אבנד חבילות.png"
 const PregnentMehiron=(props)=>{
    
     const playerRef1=useRef()
     const playerRef2=useRef()
     const playerRef3=useRef()
+ const handleClick=()=>{
 
+  const phoneNumber = "0507896962";
+  // Set the message content
+  const message =props.message || "היי מיכל , אשמח לשמוע עוד על החבילות שלך";
+
+  // Encode the message for the URL
+  const encodedMessage = encodeURIComponent(message);
+  // Construct the WhatsApp message URL with phone number and message
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  // Open the URL in a new tab
+  window.open(whatsappURL, "_blank");
+
+ }
     useEffect(()=>{
         ScrollReveal().reveal(`.${styles.wrap}`, {
             duration: 1000,
@@ -63,10 +78,10 @@ const PregnentMehiron=(props)=>{
   
     },[])
 return <>
-<div className={styles.title} id="מחירון">מחירון צילומי הריון</div>
+{/* <div className={styles.title} id="מחירון">מחירון צילומי הריון</div>
 <div className={styles.row}>
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef1} size="100%" onComplete={() => playerRef1.current?.playFromBeginning()} icon={silver} /></div> */}
+
 <div className={styles.header}>חבילה קלאסית</div>
 <div className={styles.description}>שעה של צילומים</div>
 <div className={styles.description}>לוקיישן לבחירה בעמק יזראל</div>
@@ -76,7 +91,7 @@ return <>
 </div>
 
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef2} size="100%" onComplete={() => playerRef2.current?.playFromBeginning()} icon={gold} /></div> */}
+
 <div className={styles.header}>חבילת צילום הזהב</div>
 <div className={styles.description}>שעה וחצי של צילומים</div>
 <div className={styles.description}> 2 לוקיישנים לבחירה</div>
@@ -85,7 +100,7 @@ return <>
 </div>
 
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef3} size="100%" onComplete={() => playerRef3.current?.playFromBeginning()} icon={premium} /></div> */}
+
 <div className={styles.header}>חבילת צילום פרימיום</div>
 <div className={styles.description}>שעה וחצי של צילומים</div>
 <div className={styles.description}> 2 לוקיישנים לבחירה</div>
@@ -105,7 +120,7 @@ return <>
 <div className={styles.title}>מחירון צילומי גיל שנה</div>
 <div className={styles.row}>
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef1} size="100%" onComplete={() => playerRef1.current?.playFromBeginning()} icon={silver} /></div> */}
+
 <div className={styles.header}>חבילה קלאסית</div>
 <div className={styles.description}>45 דקות של צילומים</div>
 <div className={styles.description}>לוקיישן לבחירה</div>
@@ -116,7 +131,7 @@ return <>
 </div>
 
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef2} size="100%" onComplete={() => playerRef2.current?.playFromBeginning()} icon={gold} /></div> */}
+
 <div className={styles.header}>חבילת צילום הזהב</div>
 <div className={styles.description}>שעה וחצי של צילומים</div>
 <div className={styles.description}> 2 לוקיישנים לבחירה</div>
@@ -126,7 +141,7 @@ return <>
 </div>
 
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef3} size="100%" onComplete={() => playerRef3.current?.playFromBeginning()} icon={premium} /></div> */}
+
 <div className={styles.header}>חבילת צילום פרימיום</div>
 <div className={styles.description}>שעתיים של צילומים</div>
 <div className={styles.description}> 3 לוקיישנים לבחירה</div>
@@ -146,7 +161,7 @@ return <>
 <div className={styles.title}>מחירון צילומי בר/בת מצווה</div>
 <div className={styles.row}>
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef1} size="100%" onComplete={() => playerRef1.current?.playFromBeginning()} icon={silver} /></div> */}
+
 <div className={styles.header}>חבילה קלאסית</div>
 <div className={styles.description}>שעה של צילומים</div>
 <div className={styles.description}>2 החלפות בגדים</div>
@@ -157,7 +172,7 @@ return <>
 </div>
 
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef2} size="100%" onComplete={() => playerRef2.current?.playFromBeginning()} icon={gold} /></div> */}
+
 <div className={styles.header}>חבילת צילום הזהב</div>
 <div className={styles.description}>שעתיים של צילומים</div>
 <div className={styles.description}> 2 לוקיישנים לבחירה</div>
@@ -167,7 +182,7 @@ return <>
 </div>
 
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef3} size="100%" onComplete={() => playerRef3.current?.playFromBeginning()} icon={premium} /></div> */}
+
 <div className={styles.header}>חבילת צילום פרימיום</div>
 <div className={styles.description}>4 שעות של צילומים + צילומי משפחה</div>
 <div className={styles.description}> 3 לוקיישנים לבחירה</div>
@@ -181,7 +196,7 @@ return <>
 <div className={styles.title}>מחירון שאר הצילומים</div>
 <div className={styles.row}>
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef1} size="100%" onComplete={() => playerRef1.current?.playFromBeginning()} icon={silver} /></div> */}
+
 <div className={styles.header}>חבילה קלאסית</div>
 <div className={styles.description}>שעה של צילומים</div>
 <div className={styles.description}>לוקיישן לבחירה </div>
@@ -191,7 +206,7 @@ return <>
 </div>
 
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef2} size="100%" onComplete={() => playerRef2.current?.playFromBeginning()} icon={gold} /></div> */}
+
 <div className={styles.header}>חבילת צילום הזהב</div>
 <div className={styles.description}>שעה וחצי של צילומים</div>
 <div className={styles.description}> לוקיישן לבחירה</div>
@@ -201,7 +216,7 @@ return <>
 </div>
 
 <div className={styles.wrap}>
-{/* <div className={styles.icon}><Player ref={playerRef3} size="100%" onComplete={() => playerRef3.current?.playFromBeginning()} icon={premium} /></div> */}
+
 <div className={styles.header}>חבילת צילום פרימיום</div>
 <div className={styles.description}>שעה וחצי של צילומים</div>
 <div className={styles.description}> 2 לוקיישנים לבחירה</div>
@@ -215,7 +230,17 @@ return <>
 
 <div className={styles.plus}>בנוסף..</div>
 <div className={styles.more}>לאחר שריון הצילומים תקבלו הצעות לסגנון לבוש מומלץ וגוונים התואמים את הלוקיישן שנבחר ביחד , את הלוקיישן נבחר ע''פ העדפה ישית וע''פ עונות השנה <br/> *יש לשריין תאריך כחודשיים מראש* <br/> הצילומים נערכים מאזור הצפון עד אזור המרכז</div>
-<Button text="מיכל ,התרשמתי ,בואי נדבר" icon={premium}/>
+<Button text="מיכל ,התרשמתי ,בואי נדבר" icon={premium}/> */}
+<div className={styles.title} id="מחירון">החבילות שלי</div>
+<div className={styles.description}>*כל התמונות עוברות אצלי עריכה בסיסית שכוללת תיקוני תאורה, תיקוני צבעים, תיקוני פגמים, חיתוך התמונה בצורה אופטימלית*</div>
+<div className={styles.description}>*כל חבילה כוללת מס’ תמונות שעוברות עריכת פוטושופ (משתנה מחבילה לחבילה). מדובר בעריכה עמוקה יותר, אומנותית יותר.
+את התמונות אשלח לך בגלריה דיגיטלית בוואטסאפ/ במייל תוך מספר ימים.*</div>
+<div className={styles.description}>*אני מצלמת במספר לוקיישנים שמשתנים בהתאם לתקופה ולפריחה (רימונים, חמניות, שקדיות, שיבולים ועוד).
+בהתאם לסגנון האישי שלך,
+נתאים לך יחד את הלוקיישן.
+הצילומים מתקיימים לפני השקיעה או בזריחה.*</div>
+<div className={styles.center}><img className={styles.image} src={packages} onClick={handleClick}/></div>
+<div className={styles.description}>לחץ על התמונה כדי לשמוע עוד על חבילות הצילום שלי</div>
 </>
 
 

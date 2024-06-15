@@ -14,9 +14,31 @@ const handleComplete = () => {
     }, 2000); // play again after 2.5 seconds
   };
 
+  
+const handleClick=()=>{
+  if(props.href){
+
+    window.open(props.href);
+    return ;
+    
+        }
+        const phoneNumber = "0507896962";
+        // Set the message content
+        const message =props.message || "היי מיכל , אשמח לשמוע על..";
+    
+        // Encode the message for the URL
+        const encodedMessage = encodeURIComponent(message);
+        // Construct the WhatsApp message URL with phone number and message
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+      
+        // Open the URL in a new tab
+        window.open(whatsappURL, "_blank");
+    
+      };
+
 return <>
 
-<div className={styles.wrap}>
+<div className={styles.wrap} onClick={handleClick}>
 {/* <div className={styles.icon}><Player icon={props.icon} size="100%" onComplete={handleComplete} ref={playerRef1}/></div> */}
 <div className={styles.text}>{props.text}</div>
 </div>

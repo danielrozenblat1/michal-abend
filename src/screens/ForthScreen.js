@@ -115,7 +115,7 @@ const ThirdScreen=()=>{
             </div>
 
           </div>
-          <Button text="לחץ כאן לעוד פרטים" icon={focus}/>
+          <Button text="לחץ כאן לעוד פרטים" icon={focus} message="היי מיכל, אשמח לשמוע עוד על השירותים שאת מציעה"/>
         </>
 }
 export default ThirdScreen
