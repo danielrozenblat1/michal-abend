@@ -22,7 +22,7 @@ const handleClick=()=>{
     return ;
     
         }
-        const phoneNumber = "+972 50-789-6962";
+        const phoneNumber = "+972507896962";
         // Set the message content
         const message =props.message || "היי מיכל , אשמח לשמוע על..";
     
