@@ -69,7 +69,7 @@ const Recommends=(props)=>{
 
         return <>
 
-<div className={styles.title}>{props.title}</div>
+<div className={styles.title} id="לקוחות ממליצים">{props.title}</div>
 <div className={styles.description}>מוזמנים להחליק ולהתרשם</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
